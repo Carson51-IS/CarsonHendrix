@@ -10,9 +10,9 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #f8f9fa;
-  color: #212529;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
   line-height: 1.6;
   min-height: 100vh;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .nav-link {
-  color: #212529;
+  color: #334155;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
@@ -46,7 +46,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #0d6efd;
+  color: #1e40af;
 }
 
 .nav-social {
@@ -56,13 +56,13 @@ body {
 }
 
 .nav-social-link {
-  color: #6c757d;
+  color: #64748b;
   text-decoration: none;
   font-size: 0.9rem;
 }
 
 .nav-social-link:hover {
-  color: #0d6efd;
+  color: #1e40af;
 }
 
 /* Sections */
@@ -76,7 +76,7 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: #212529;
+  color: #0f172a;
 }
 
 /* Hero */
@@ -126,22 +126,22 @@ body {
 }
 
 .btn-primary {
-  background-color: #0d6efd;
+  background-color: #1e40af;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background-color: #0b5ed7;
+  background-color: #1e3a8a;
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: #0d6efd;
-  border: 2px solid #0d6efd;
+  color: #1e40af;
+  border: 2px solid #1e40af;
 }
 
 .btn-secondary:hover {
-  background-color: #0d6efd;
+  background-color: #1e40af;
   color: #fff;
 }
 
@@ -177,12 +177,12 @@ body {
 .metric-value {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #0d6efd;
+  color: #1e40af;
 }
 
 .metric-label {
   font-size: 0.9rem;
-  color: #6c757d;
+  color: #64748b;
 }
 
 .about-interests-title {
@@ -201,7 +201,7 @@ body {
 }
 
 .about-cta a {
-  color: #0d6efd;
+  color: #1e40af;
   text-decoration: none;
   font-weight: 500;
 }
@@ -235,14 +235,22 @@ body {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
-.project-image-placeholder {
+.project-preview {
+  display: block;
   height: 160px;
+  overflow: hidden;
   background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #6c757d;
-  font-size: 0.9rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.02);
 }
 
 .project-content {
@@ -267,7 +275,7 @@ body {
 }
 
 .project-link {
-  color: #0d6efd;
+  color: #1e40af;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -302,7 +310,7 @@ body {
 
 .resume-viewer {
   width: 100%;
-  height: 600px;
+  height: 900px;
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -330,7 +338,7 @@ body {
 
 .footer-copyright {
   font-size: 0.9rem;
-  color: #6c757d;
+  color: #64748b;
 }
 
 .footer-links {
@@ -339,7 +347,7 @@ body {
 }
 
 .footer-links a {
-  color: #0d6efd;
+  color: #1e40af;
   text-decoration: none;
   font-size: 0.9rem;
 }

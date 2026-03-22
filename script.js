@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const sectionId = section.getAttribute('id');
 
       if (scrollY >= sectionTop) {
-        activeSection = sectionId === 'about' ? 'home' : sectionId;
+        activeSection = sectionId;
       }
     });
 
