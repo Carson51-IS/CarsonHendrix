@@ -98,6 +98,8 @@ body {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  /* Nudge the crop so your face sits lower inside the circle (tweak % if needed) */
+  object-position: center 42%;
   border: 4px solid #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
